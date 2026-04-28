@@ -8,7 +8,7 @@ export default function App() {
   const [theme, setTheme] = useState("theme1");
 
   useEffect(() => {
-    fetch("http://localhost:5000/tasks")
+    fetch("https://task-manager-tkqn.onrender.com")
       .then(res => res.json())
       .then(setTasks);
   }, []);
