@@ -1,4 +1,4 @@
-# Task Manager App
+# Planara
 
 A full-stack Task Manager web application built using React (Vite) and Node.js (Express).
 
